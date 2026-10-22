@@ -1,0 +1,17 @@
+Algoritmo Suma_Hasta_Cero()
+//Declaracion de variables 
+    Definir numero, suma Como Entero
+    suma = 0
+//Control de variables 
+    Escribir "Ingrese un numero entero:"
+    Leer numero
+    Mientras numero <> 0 Hacer
+        suma = suma + numero
+
+        Escribir "Ingrese otro numero entero:"
+        Leer numero
+    FinMientras
+
+    Escribir "La suma total de los numeros ingresados es: ", suma
+
+FinAlgoritmo
